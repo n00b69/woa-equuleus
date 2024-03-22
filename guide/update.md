@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woa-dipper/blob/main/dipper.png" width="350" alt="Windows 11 running on dipper">
+<img align="right" src="https://github.com/n00b69/woa-equuleus/blob/main/equuleus.png" width="350" alt="Windows 11 running on equuleus">
 
-# Running Windows on the Xiaomi Mi 8
+# Running Windows on the Xiaomi Mi 8 Pro
 
 ## Updating drivers
 
@@ -11,9 +11,9 @@
   
 - [Drivers]() FILE NEEDED
   
-- [Msc script](https://github.com/n00b69/woa-dipper/releases/download/Files/msc.sh)
+- [Msc script](https://github.com/n00b69/woa-equuleus/releases/download/Files/msc.sh)
   
-- [TWRP](https://github.com/n00b69/woa-dipper/releases/download/Files/twrp.img) (should already be installed)
+- [TWRP](https://github.com/n00b69/woa-equuleus/releases/download/Files/twrp.img) (should already be installed)
 
 #### Boot to TWRP
 > If COMPANY has replaced your recovery back to stock, flash it again in fastboot with:
@@ -39,7 +39,7 @@ list volume
 ```
 
 #### Select Windows volume
-> Replace $ with the actual number of the Windows volume
+> Replace $ with the actual number of the **WIN8PRO** volume
 ```cmd
 select volume $
 ```
@@ -67,7 +67,7 @@ diskpart
 ```
 
 #### Select the Windows volume of the phone
-> Use `lis vol` to find it, it's the one named "Windows"
+> Use `lis vol` to find it, it's the one named **WIN8PRO**
 ```diskpart
 select volume <number>
 ```
