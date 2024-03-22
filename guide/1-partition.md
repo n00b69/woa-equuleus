@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woa-dipper/blob/main/dipper.png" width="350" alt="Windows 11 running on dipper">
+<img align="right" src="https://github.com/n00b69/woa-equuleus/blob/main/equuleus.png" width="350" alt="Windows 11 running on equuleus">
 
-# Running Windows on the Xiaomi Mi 8
+# Running Windows on the Xiaomi Mi 8 Pro
 
 ## Partitioning your device
 
@@ -9,15 +9,15 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [TWRP](https://github.com/n00b69/woa-dipper/releases/download/Files/twrp.img)
+- [TWRP](https://github.com/n00b69/woa-equuleus/releases/download/Files/twrp.img)
 
-- [Parted](https://github.com/n00b69/woa-dipper/releases/download/Files/parted)
+- [Parted](https://github.com/n00b69/woa-equuleus/releases/download/Files/parted)
 
 ### Notes
 > [!WARNING]  
 > Do not run the same command twice unless specified.
 > 
-> DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the [Telegram chat](https://t.me/woadipper).
+> DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the [Telegram chat](https://t.me/woaequuleus).
 > 
 > Do not run all commands at once, execute them in order!
 >
@@ -38,7 +38,7 @@ Use TWRP now to back up your Modem and EFS partition (as well as anything else i
 > **IF YOU PROCEED WITHOUT BACKING UP MODEM AND EFS, YOU ARE ON YOUR OWN IF YOU MESS UP**
 
 #### Partitioning guide
-> Your Xiaomi Mi 8 may have different storage sizes. This guide uses the values of the 128GB model as an example. When relevant, the guide will mention if other values can or should be used.
+> Your Xiaomi Mi 8 Pro may have different storage sizes. This guide uses the values of the 128GB model as an example. When relevant, the guide will mention if other values can or should be used.
 
 #### Preparing for partitioning
 > Download the parted file and move it in the platform-tools folder, then run
