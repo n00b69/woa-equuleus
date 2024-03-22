@@ -45,7 +45,7 @@ lis dis
 ```
 
 #### Selecting your phone
-> Replace $ with the actual number of your phone (its size should be around 128GB)
+> Replace $ with the actual number of your phone (it should be the last one)
 ```cmd
 sel dis $
 ```
@@ -57,7 +57,7 @@ lis par
 ```
 
 #### Selecting the Windows partition
-> Replace $ with the partition number of Windows (should be 22)
+> Replace $ with the partition number of Windows (should be 23)
 ```cmd
 sel par $
 ```
@@ -73,7 +73,7 @@ assign letter x
 ```
 
 #### Selecting the ESP partition
-> Replace $ with the partition number of ESP (should be 23)
+> Replace $ with the partition number of ESP (should be 22)
 ```cmd
 sel par $
 ```
@@ -153,7 +153,7 @@ diskpart
 #### Select the Windows volume of the phone
 > Use `list volume` to find it, replace "$" with the actual number of **WIN8PRO**
 ```diskpart
-select volume <number>
+select volume $
 ```
 
 #### Unassign the letter X
