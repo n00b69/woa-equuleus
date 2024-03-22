@@ -8,9 +8,9 @@
 
 - [Windows on ARM image](https://worproject.com/esd)
   
-- [UEFI image]() FILE NEEDED
+- [UEFI image](https://github.com/n00b69/woa-equuleus/releases/download/Drivers/equuleus-uefi.img)
   
-- [Drivers]() FILE NEEDED
+- [Drivers](https://github.com/n00b69/woa-equuleus/releases/download/Drivers/equuleus-drivers.tar.gz)
   
 - [Msc script](https://github.com/n00b69/woa-equuleus/releases/download/Files/msc.sh)
 
