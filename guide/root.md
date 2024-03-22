@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woa-dipper/blob/main/dipper.png" width="350" alt="Windows 11 running on dipper">
+<img align="right" src="https://github.com/n00b69/woa-equuleus/blob/main/equuleus.png" width="350" alt="Windows 11 running on equuleus">
 
-# Running Windows on the Xiaomi Mi 8
+# Running Windows on the Xiaomi Mi 8 Pro
 
 ## Root guide
 
@@ -9,7 +9,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [TWRP](https://github.com/n00b69/woa-dipper/releases/download/Files/twrp.img)
+- [TWRP](https://github.com/n00b69/woa-equuleus/releases/download/Files/twrp.img)
 
 ##### Boot TWRP
 > If your recovery has been replaced back to stock, flash it again in fastboot with:
