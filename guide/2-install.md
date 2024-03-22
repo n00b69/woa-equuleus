@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woa-dipper/blob/main/dipper.png" width="350" alt="Windows 11 running on dipper">
+<img align="right" src="https://github.com/n00b69/woa-equuleus/blob/main/equuleus.png" width="350" alt="Windows 11 running on equuleus">
 
-# Running Windows on the Xiaomi Mi 8
+# Running Windows on the Xiaomi Mi 8 Pro
 
 ## Installing Windows
 
@@ -12,11 +12,11 @@
   
 - [Drivers]() FILE NEEDED
   
-- [Msc script](https://github.com/n00b69/woa-dipper/releases/download/Files/msc.sh)
+- [Msc script](https://github.com/n00b69/woa-equuleus/releases/download/Files/msc.sh)
 
-- [Parted](https://github.com/n00b69/woa-dipper/releases/download/Files/parted)
+- [Parted](https://github.com/n00b69/woa-equuleus/releases/download/Files/parted)
   
-- [TWRP](https://github.com/n00b69/woa-dipper/releases/download/Files/twrp.img) (should already be installed)
+- [TWRP](https://github.com/n00b69/woa-equuleus/releases/download/Files/twrp.img) (should already be installed)
 
 #### Boot to TWRP
 > If rebooting on the last page has replaced your recovery back to stock, flash it again in fastboot with:
@@ -64,7 +64,7 @@ sel par $
 
 #### Formatting Windows drive
 ```cmd
-format quick fs=ntfs label="WINDIPPER"
+format quick fs=ntfs label="WIN8PRO"
 ```
 
 #### Add letter to Windows
@@ -80,7 +80,7 @@ sel par $
 
 #### Formatting ESP drive
 ```cmd
-format quick fs=fat32 label="ESPDIPPER"
+format quick fs=fat32 label="ESP8PRO"
 ```
 
 #### Add letter to ESP
@@ -151,7 +151,7 @@ diskpart
 ```
 
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, replace "$" with the actual number of **WINDIPPER**
+> Use `list volume` to find it, replace "$" with the actual number of **WIN8PRO**
 ```diskpart
 select volume <number>
 ```
@@ -162,7 +162,7 @@ remove letter x
 ```
 
 #### Select the ESP volume of the phone
-> Use `list volume` to find it, replace "$" with the actual number of **ESPDIPPER**
+> Use `list volume` to find it, replace "$" with the actual number of **ESP8PRO**
 ```diskpart
 select volume $
 ```
