@@ -10,7 +10,7 @@
   
 - [UEFI image](https://github.com/n00b69/woa-equuleus/releases/download/Drivers/equuleus-uefi.img)
   
-- [Drivers](https://github.com/n00b69/woa-equuleus/releases/download/Drivers/equuleus-drivers.tar.gz)
+- [Drivers](https://github.com/n00b69/woa-equuleus/releases/download/Drivers/equuleus-drivers.zip)
   
 - [Msc script](https://github.com/n00b69/woa-equuleus/releases/download/Files/msc.sh)
 
