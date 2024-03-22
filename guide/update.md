@@ -67,9 +67,9 @@ diskpart
 ```
 
 #### Select the Windows volume of the phone
-> Use `lis vol` to find it, it's the one named **WIN8PRO**
+> Use `list volume` to find it, replace "$" with the actual number of **WIN8PRO**
 ```diskpart
-select volume <number>
+select volume $
 ```
 
 #### Unassign the letter X
