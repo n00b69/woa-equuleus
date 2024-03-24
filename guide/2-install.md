@@ -11,8 +11,6 @@
   
 - [Msc script](https://github.com/n00b69/woa-equuleus/releases/download/Files/msc.sh)
 
-- [Parted](https://github.com/n00b69/woa-equuleus/releases/download/Files/parted)
-
 - [Devcfg (touch fix)](https://github.com/n00b69/woa-equuleus/releases/download/Files/devcfg-equuleus.img)
   
 - [TWRP](https://github.com/n00b69/woa-equuleus/releases/download/Files/twrp.img) (should already be installed)
@@ -90,22 +88,6 @@ assign letter y
 #### Exit diskpart
 ```cmd
 exit
-```
-
-### Running parted
-```cmd
-adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
-```
-
-#### Making ESP bootable
-> Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be 23
-```cmd
-set $ esp on
-```
-
-#### Exit parted
-```cmd
-quit
 ```
 
 ### Installing Windows
