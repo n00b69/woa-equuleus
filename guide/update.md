@@ -6,10 +6,8 @@
 
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-
-- [UEFI image](https://github.com/n00b69/woa-equuleus/releases/download/Drivers/equuleus-uefi.img)
   
-- [Drivers](https://github.com/n00b69/woa-equuleus/releases/download/Drivers/equuleus-drivers.zip)
+- [Drivers](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
   
 - [Msc script](https://github.com/n00b69/woa-equuleus/releases/download/Files/msc.sh)
   
