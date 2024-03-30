@@ -11,19 +11,19 @@
 
 - [Devcfg (touch fix)](https://github.com/n00b69/woa-equuleus/releases/download/Files/devcfg-equuleus.img)
   
-- [TWRP](https://github.com/n00b69/woa-equuleus/releases/download/Files/twrp.img) (should already be installed)
+- [UEFI image](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
 
-#### Boot to TWRP
-> If rebooting on the last page has replaced your recovery back to stock, flash it again in fastboot with:
+#### Boot to the UEFI
+> Replace **<path\to\equuleus-uefi.img>** with the actual path of the UEFI image
 ```cmd
-fastboot flash recovery path\to\twrp.img reboot recovery
+fastboot boot <path\to\equuleus-uefi.img>
 ```
 
-#### Running the msc script
-> Put msc.sh in the platform-tools folder, then run:
-```cmd
-adb push msc.sh / && adb shell sh msc.sh
-```
+#### Enabling mass storage mode
+> Once booted into the UEFI, use the volume buttons to navigate the menu and the power button to confirm
+- Select UEFI Boot Menu.
+- Select USB Attached SCSI (UAS) Storage.
+- Select Boot.
 
 ### Diskpart
 >  [!WARNING]
