@@ -8,8 +8,6 @@
 - [Windows on ARM image](https://worproject.com/esd)
   
 - [Drivers](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
-  
-- [Msc script](https://github.com/n00b69/woa-equuleus/releases/download/Files/msc.sh)
 
 - [Devcfg (touch fix)](https://github.com/n00b69/woa-equuleus/releases/download/Files/devcfg-equuleus.img)
   
@@ -161,7 +159,7 @@ exit
 ### Fixing touch
 > Replace "path\to" with the actual path to the image
 ```cmd
-fastboot flash path\to\devcgf-equuleus.img
+fastboot flash devcfg_ab path\to\devcgf-equuleus.img
 ```
 
 ### Reboot to Android
