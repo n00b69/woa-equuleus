@@ -14,21 +14,21 @@ This project is in an early stage, all the files here have been contributed by o
 ## Get started
 - [Project status](guide/status.md)
 
-- [Installation instructions](guide/1-partition.md) W.I.P missing touchfix
+- [Installation instructions](guide/1-partition.md)
 
 - [Troubleshooting](guide/troubleshooting.md)
 
 
 ## Miscellaneous
-- [Dualboot setup](guide/dualboot.md) W.I.P missing some files
+- [Dualboot setup](guide/dualboot.md)
 
 - [Additional materials](guide/materials.md)
 
 - [Update drivers](guide/update.md)
 
-- [Reinstall instructions](guide/2-install.md) W.I.P missing some files
+- [Reinstall instructions](guide/2-install.md)
 
-- [Uninstall instructions](guide/uninstall.md) W.I.P DO NOT USE
+- ~~[Uninstall instructions](guide/uninstall.md)~~ W.I.P DO NOT USE
 
 
 ## Contributors
