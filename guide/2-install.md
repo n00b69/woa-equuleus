@@ -157,9 +157,9 @@ exit
 ```
 
 ### Fixing touch
-> Replace "path\to" with the actual path to the image
+> Reboot to fastboot, then replace "path\to" with the actual path to the image
 ```cmd
-fastboot flash devcfg_ab path\to\devcgf-equuleus.img
+fastboot flash devcfg path\to\devcgf-equuleus.img
 ```
 
 ### Reboot to Android
