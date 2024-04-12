@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
+<img align="right" src="https://github.com/n00b69/woa-equuleus/blob/main/equuleus.png" width="350" alt="Windows 11 running on equuleus">
 
-# Запуск Windows на Xiaomi Mix 2s
+# Запуск Winows на Xiaomi Mi 8 Pro
 
 ## Разметка устройства 
 
@@ -9,15 +9,15 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img)
+- [TWRP](https://github.com/n00b69/woa-equuleus/releases/download/Files/twrp.img)
 
-- [Parted](https://github.com/n00b69/woa-polaris/releases/download/Files/parted)
+- [Parted](https://github.com/n00b69/woa-equuleus/releases/download/Files/parted)
 
 ### Заметки 
 > [!WARNING]  
 > Не выполняйте одну и ту же команду дважды, если не указано иное.
 > 
-> НЕ ПЕРЕЗАГРУЖАЙТЕ ТЕЛЕФОН! Если вы считаете, что допустили ошибку, обратитесь за помощью в [Telegram чате](https://t.me/WinOnMIX2S).
+> НЕ ПЕРЕЗАГРУЖАЙТЕ ТЕЛЕФОН! Если вы считаете, что допустили ошибку, обратитесь за помощью в [Telegram чате](https://t.me/woaequuleus).
 > 
 > Не выполняйте все команды сразу, выполняйте их по порядку!
 >
@@ -102,6 +102,5 @@ quit
 
 #### Проверьте, запускается ли Android 
 - Просто перезагрузите телефон и посмотрите, загружается ли Android
-
 
 ## [Следующий шаг: Установка Windows](2-install-ru.md)
