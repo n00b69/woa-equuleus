@@ -1,7 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
+<img align="right" src="https://github.com/n00b69/woa-equuleus/blob/main/equuleus.png" width="350" alt="Windows 11 running on equuleus">
 
-
-# Запуск Windows на Xiaomi Mix 2s
+# Запуск Winows на Xiaomi Mi 8 Pro
 
 ## Удаление
 
@@ -13,7 +12,7 @@ If you want to relock your bootloader you'll need your partition table to be sto
 ### Требования
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [gpt_both0.bin](https://github.com/n00b69/woa-polaris/releases/download/Files/gpt_both0.bin)
+- [gpt_both0.bin](https://github.com/n00b69/woa-equuleus/releases/download/Files/gpt_both0.bin)
 
 ### Загрузитесь в fastboot 
 > Удерживайте нажатой кнопку уменьшения громкости + включения, пока телефон выключен, или выполните следующую команду когда он загружен 
@@ -36,3 +35,15 @@ fastboot -w
 > Если форматирование userdata завершится неудачно, перезагрузтесь в recovery и сделайте wipe data там вместо этого
 
 ## Готово!
+
+
+
+
+
+
+
+
+
+
+
+
