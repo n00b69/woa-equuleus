@@ -1,17 +1,17 @@
-<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
+<img align="right" src="https://github.com/n00b69/woa-equuleus/blob/main/equuleus.png" width="350" alt="Windows 11 running on equuleus">
 
-# Запуск Windows на Xiaomi Mix 2s
+# Запуск Winows на Xiaomi Mi 8 Pro
 
 ## Dualboot guide
 
 ### Требования
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 
-- [Образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
+- [Образ UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
 
 - [Приложение WOA Helper](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
-- [Switch To Android пакет](https://github.com/n00b69/woa-polaris/releases/download/Files/polaris-sta.zip)
+- [Switch To Android пакет](https://github.com/n00b69/woa-equuleus/releases/download/Files/equuleus-sta.zip)
 
 ## Руководство по двойной загрузке
 В этом руководстве предполагается, что у вас есть root-права, если это не так, пожалуйста, сначала следуйте [этому руководству](root-ru.md).
