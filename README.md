@@ -3,6 +3,9 @@
 # Running Windows on the Xiaomi Mi 8 Pro
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/woaequuleus)
 
+## Choose your language
+**English** | ~~[Pусский](/guide/Russian/README-ru.md)~~ | ~~[Polski](/guide/Polish/README-pl.md)~~
+
 ## ⚠️ Warning
 We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~~workers~~ cowboys, dead pmics, dead ram, dead sim cards, dead display ics, dead cpus, any xiaomi shenanigans, exploding batteries, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
 
@@ -54,6 +57,7 @@ This project is in an early stage, all the files here have been contributed by o
 [<img alt="RIllEX1"
 src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/142384494?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/RIllEX1)
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
+[<img alt="Misha803" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118528504?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Misha803)
 
 
 
