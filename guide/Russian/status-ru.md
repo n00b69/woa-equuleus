@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
+<img align="right" src="https://github.com/n00b69/woa-equuleus/blob/main/equuleus.png" width="350" alt="Windows 11 running on equuleus">
 
-# Запуск Windows на Xiaomi Mix 2s
+# Запуск Winows на Xiaomi Mi 8 Pro
 
 ## Статус проекта 
 Проект находится в стадии разработки. Ожидайте некоторых обновлений в будущем.
@@ -15,19 +15,19 @@
 - [x] Зарядка ```ОЧЕНЬ медленно```
 - [x] Дисплей
 - [x] GPU  ```Нет ускорения x64```
-- [ ] SD карта
 - [ ] СМС
-- [x] Touchscreen ```Ломается после спящего режима```
+- [x] Touchscreen
 - [x] UFS
 - [x] USB
 - [x] Wi-Fi
 
 #### Sensors
-- [x] Акселерометр
+- [ ] Акселерометр
 - [ ] Отпечаток пальца
 - [x] GPS
-- [x] Гироскоп
-- [x] Датчик освещенности
+- [ ] Гироскоп
+- [ ] Датчик освещенности
+- [ ] Магнитометр
 - [ ] Датчик приближения 
 
 #### Безопасность 
