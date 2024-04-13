@@ -15,7 +15,11 @@ If you want to relock your bootloader you'll need your partition table to be sto
   
 - [gpt_both0.bin](https://github.com/n00b69/woa-equuleus/releases/download/Files/gpt_both0.bin)
 
-### Boot into fastboot mode
+### Uninstall instructions
+> [!Important]
+> There is a very small chance this guide might not work if your partition table is completely fucked up. If you find yourself not being able to boot to recovery / Android after, you will have to reflash your device with EDL.
+
+#### Boot into fastboot mode
 > Hold the volume down + power button while the phone is turned off, or run the following command while it is booted
 ```cmd
 adb reboot bootloader
