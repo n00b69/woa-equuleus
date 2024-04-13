@@ -30,7 +30,7 @@
 
 - [Переустановка](reinstall-ru.md)
 
-- ~~[Инструкции по удалению](uninstall-ru.md)~~ W.I.P DO NOT USE
+- [Инструкции по удалению](uninstall-ru.md)
 
 ## Партнёры 
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
