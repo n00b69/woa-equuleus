@@ -11,7 +11,7 @@
 
 - [Devcfg исправления touch](https://github.com/n00b69/woa-equuleus/releases/download/Files/devcfg-polaris.img)
   
-- [образ UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
+- [Образ UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
 
 ### Загрузка в UEFI
 > Замените **<путь\к\equuleus-uefi.img>** с актуальным путём к образу UEFI
