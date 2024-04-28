@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
+<img align="right" src="https://github.com/n00b69/woa-equuleus/blob/main/equuleus.png" width="350" alt="Windows 11 running on equuleus">
 
-# Windows na Xiaomi Mix 2s
+# Windows na Xiaomi Mi 8 Pro
 
 ## Dezinstalacja
 
@@ -13,7 +13,7 @@ Jeśli chcesz ponownie zablokować program ładujący, musisz mieć zapasową ta
 
 - [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [gpt_both0.bin](https://github.com/n00b69/woa-polaris/releases/download/Files/gpt_both0.bin)
+- [gpt_both0.bin](https://github.com/n00b69/woa-equuleus/releases/download/Files/gpt_both0.bin)
 
 ### Instrukcje odinstalowania
 > [!Important]
@@ -22,14 +22,14 @@ Jeśli chcesz ponownie zablokować program ładujący, musisz mieć zapasową ta
 #### Uruchom komputer w trybie fastboot
 > Przytrzymaj przycisk zmniejszania głośności + przycisk zasilania, gdy telefon jest wyłączony, lub uruchom następujące polecenie podczas uruchamiania
 ```cmd
-adb, zrestartuj program ładujący
+adb reboot bootloader
 ```
 
 #### Przywróć GPT
 > Zastąp ```ścieżkę\to\gpt_both0.bin``` ścieżką do pliku gpt_both0.bin.
 
 ```cmd
-partycja flash fastboot: ścieżka 0 do \gpt_both0.bin
+fastboot flash partition:0 ścieżkę\to\gpt_both0.bin
 ```
 
 #### Usuń dane użytkownika, aby uniknąć pętli rozruchowej i przywrócić rozmiar FS
