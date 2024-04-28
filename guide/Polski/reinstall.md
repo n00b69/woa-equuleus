@@ -2,7 +2,7 @@
 
 # Windows na Xiaomi Mi 8 Pro
 
-### Prerequisites
+### Wymagania
 - [Windows dla ARM](https://worproject.com/esd)
 
 - [Sterowniki](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
