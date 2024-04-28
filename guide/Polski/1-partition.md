@@ -37,7 +37,7 @@ Użyj TWRP teraz, aby wykonać kopię zapasową modemu i partycji EFS (a także 
 > **JEŚLI KONTYNUUJESZ BEZ KOPII ZAPASOWEJ MODEMU I EFS JEST DUŻE RYZYKO ZE TELEFON NIE BĘDZIE MOGŁ UŻYWAĆ LTE LUB POŁĄCZEŃ**
 
 ### Przewodnik dotyczący partycjonowania
-> Twój Xiaomi Mi 8 może mieć różne rozmiary pamięci. Ten przewodnik używa wartości modelu 128GB jako przykładu. W razie potrzeby przewodnik wspomni, czy można lub należy użyć innych wartości.
+> Twój Xiaomi Mi 8 Pro może mieć różne rozmiary pamięci. Ten przewodnik używa wartości modelu 128GB jako przykładu. W razie potrzeby przewodnik wspomni, czy można lub należy użyć innych wartości.
 
 #### Odmontuj dane
 - Przejdź do "Montuj" w TWRP i odmontuj dane, jeśli są zamontowane
