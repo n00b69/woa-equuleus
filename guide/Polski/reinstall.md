@@ -3,11 +3,11 @@
 # Windows na Xiaomi Mi 8 Pro
 
 ### Prerequisites
-- [Windows on ARM image](https://worproject.com/esd)
+- [Windows dla ARM](https://worproject.com/esd)
 
-- [Drivers](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
+- [Sterowniki](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
   
-- [UEFI image](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
+- [Obraz UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
 
 ### Uruchom do UEFI
 > Zastąp **<path\to\equuleus-uefi.img>** rzeczywistą ścieżką obrazu UEFI
