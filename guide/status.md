@@ -6,16 +6,16 @@
 This project is not actively maintained, updates may eventually appear, but don't expect them frequently
 
 #### Features
-
 - [ ] Audio 
 - [X] Battery status
 - [x] Bluetooth
 - [x] Brightness 
 - [ ] Camera
-- [x] Cellular
+- [x] LTE
 - [x] Charging ```VERY slow```
 - [x] Display
 - [x] GPU  ```No x64 acceleration```
+- [ ] SMS
 - [x] Touchscreen 
 - [x] UFS
 - [x] USB
@@ -29,11 +29,9 @@ This project is not actively maintained, updates may eventually appear, but don'
 - [ ] Light sensor
 - [ ] Magnetometer
 - [ ] Proximity
+- [ ] NFC
 
-#### Security
 
-- [ ] Security Processor ```Impossible to get working, Xiaomi broke the firmware```
-- [ ] TPM (Software Backed)
 
 
 
