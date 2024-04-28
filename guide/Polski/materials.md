@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
+<img align="right" src="https://github.com/n00b69/woa-equuleus/blob/main/equuleus.png" width="350" alt="Windows 11 running on equuleus">
 
-# Windows na Xiaomi Mix 2s
+# Windows na Xiaomi Mi 8 Pro
 
 ## Dodatkowe materiały
 > Poniżej znajdziesz listę usprawnień i materiałów dla systemu Windows na urządzeniu ARM
