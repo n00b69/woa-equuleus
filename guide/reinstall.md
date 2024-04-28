@@ -2,6 +2,8 @@
 
 # Running Windows on the Xiaomi Mi 8 Pro
 
+## Reinstalling Windows
+
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
 
