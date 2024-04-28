@@ -1,22 +1,22 @@
-<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
+<img align="right" src="https://github.com/n00b69/woa-equuleus/blob/main/equuleus.png" width="350" alt="Windows 11 running on equuleus">
 
-# Windows na Xiaomi Mix 2s
+# Windows na Xiaomi Mi 8 Pro
 
 ## Instalacja Windowsa
 
 ### Wymagania
 - [Windows dla ARM](https://worproject.com/esd)
   
-- [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
+- [Sterowniki](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
 
-- [Devcfg (naprawia dotyk)](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
+- [Devcfg (naprawia dotyk)](https://github.com/n00b69/woa-equuleus/releases/download/Files/devcfg-polaris.img)
   
-- [obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
+- [obraz UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
 
 ### Uruchom do UEFI
-> Zastąp **<path\to\polaris-uefi.img>** rzeczywistą ścieżką obrazu UEFI
+> Zastąp **<path\to\equuleus-uefi.img>** rzeczywistą ścieżką obrazu UEFI
 ```cmd
-fastboot boot <path\to\polaris-uefi.img>
+fastboot boot <path\to\equuleus-uefi.img>
 ```
 
 #### Włączanie trybu pamięci masowej
@@ -58,7 +58,7 @@ sel par $
 
 #### Formatowanie dysku z systemem Windows
 ```cmd
-format quick fs=ntfs label="WINPOLARIS"
+format quick fs=ntfs label="WIN8PRO"
 ```
 
 #### Dodaj literę do systemu Windows
@@ -74,7 +74,7 @@ sel par $
 
 #### Formatowanie ESP
 ```cmd
-format quick fs=fat32 label="ESPPOLARIS"
+format quick fs=fat32 label="ESP8PRO"
 ```
 
 #### Dodaj literę do ESP
@@ -99,10 +99,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ### Instalowanie Sterowników
 > Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
-> If it asks you to enter a letter, enter the drive letter of **WINPOLARIS** (which should be X), then press enter
-
-> [!WARNING]
-> NIE UŻYWAJ DISM++
+> If it asks you to enter a letter, enter the drive letter of **WIN8PRO** (which should be X), then press enter
 
 #### Utwórz pliki bootloadera systemu Windows
 ```cmd
@@ -124,52 +121,48 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
-### Usuń przypisanie liter dysku
-> So that they don't stay there after disconnecting the device
+### Usuń przypisanie litery dysku
+> Żeby nie pozostał tam po odłączeniu urządzenia
 ```cmd
 diskpart
 ```
 
-#### Wybierz partycję Windows
-> Użyj `list Volume`, aby go znaleźć, zamień „$” na rzeczywistą liczbę **WINPOLARIS**
-```diskpart
-select volume $
+#### Wybierz głośność systemu Windows w telefonie
+> Użyj `list Volume`, aby go znaleźć, zamień „$” na rzeczywistą liczbę **WIN8PRO**
+```część dysku
+sel vol $
 ```
 
 #### Usuń przypisanie litery X
-```diskpart
+```część dysku
 remove letter x
 ```
 
-#### Wybierz partycję ESP
-> Use `list volume` to find it, replace "$" with the actual number of **ESPPOLARIS**
-```diskpart
-select volume $
+#### Wybierz głośność systemu ESP w telefonie
+> Użyj `list Volume`, aby go znaleźć, zamień „$” na rzeczywistą liczbę **ESP8PRO**
+```część dysku
+sel vol $
 ```
 
 #### Usuń przypisanie litery Y
-```diskpart
+```część dysku
 remove letter y
 ```
 
-#### Wyjdź z diskpart
-```diskpart
+#### Wyjdź z dysku
+```część dysku
 exit
 ```
 
 ### Naprawianie dotyku
 > Uruchom ponownie telefon w trybie fastboot, a następnie zamień **path\to** rzeczywistą ścieżką do obrazu devcfg (który pobrałeś wczesniej)
 ```cmd
-fastboot flash devcfg_ab path\to\devcgf-polaris.img
+fastboot flash devcfg_ab path\to\devcgf-equuleus.img
 ```
 
-### Uruchom ponownie system Windows
-> Zastąp **<path\to\firstboot.img>** rzeczywistą ścieżką obrazu UEFI
-```cmd
-fastboot boot <path\to\firstboot.img>
-```
-> [!Important]
-> Po uruchomieniu systemu Windows i zakończeniu konfiguracji systemu Windows naciśnij **Uruchom ponownie** w menu Start, aby w ostatnim kroku ponownie uruchomić system Android
+### Uruchom ponownie do Androida
+> Uruchom ponownie do Androida aby ustawić dualboot
+
 
 ## [Ostatni Krok: Ustawianie dualboot](dualboot.md)
 
