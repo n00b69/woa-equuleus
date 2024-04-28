@@ -1,18 +1,18 @@
-<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
+<img align="right" src="https://github.com/n00b69/woa-equuleus/blob/main/equuleus.png" width="350" alt="Windows 11 running on equuleus">
 
-# Running Windows on the Xiaomi Mix 2s
+# Windows na Xiaomi Mi 8 Pro
 
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
 
-- [Drivers](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
+- [Drivers](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
   
-- [UEFI image](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
+- [UEFI image](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
 
 ### Uruchom do UEFI
-> Zastąp **<path\to\polaris-uefi.img>** rzeczywistą ścieżką obrazu UEFI
+> Zastąp **<path\to\equuleus-uefi.img>** rzeczywistą ścieżką obrazu UEFI
 ```cmd
-fastboot boot <path\to\polaris-uefi.img>
+fastboot boot <path\to\equuleus-uefi.img>
 ```
 
 #### Włączanie trybu pamięci masowej
@@ -52,7 +52,7 @@ sel par $
 
 #### Formatowanie dysku z systemem Windows
 ```cmd
-format quick fs=ntfs label="WINPOLARIS"
+format quick fs=ntfs label="WIN8PRO"
 ```
 
 #### Dodaj literę do systemu Windows
@@ -75,10 +75,9 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 > Jeśli pojawi się komunikat `Błąd 87`, sprawdź indeks obrazu za pomocą polecenia `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, a następnie zastąp `index:6` rzeczywistym numerem indeksu systemu Windows 11 Pro na Twoim obrazie
 
 ### Instalowanie sterowników
-> Wyodrębnij folder sterowników z archiwum, a następnie uruchom następujące polecenie, zastępując „<path\to\drivers>” rzeczywistą ścieżką folderu sterowników
-```cmd
-dism /image:X:\ /add-driver /driver:<path\to\drivers> /recurse
-```
+> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
+
+> If it asks you to enter a letter, enter the drive letter of **WIN8PRO** (which should be X), then press enter
 
 ### Uruchom do Androida
 Uruchom ponownie telefon. Jeśli zamiast systemu Windows wylądujesz w systemie Android, ponownie wykonaj flashowanie UEFI za pomocą WOA Helper.
