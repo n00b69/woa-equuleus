@@ -1,22 +1,22 @@
-<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
+<img align="right" src="https://github.com/n00b69/woa-equuleus/blob/main/equuleus.png" width="350" alt="Windows 11 running on equuleus">
 
-# Windows na Xiaomi Mix 2s
+# Windows na Xiaomi Mi 8 Pro
 
 ## Aktualizowanie sterowników
 
 ### Warunki wstępne
 - [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
+- [Sterowniki](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
 
-- [Skrypt Msc](https://github.com/n00b69/woa-polaris/releases/download/Files/msc.sh)
+- [Skrypt Msc](https://github.com/n00b69/woa-equuleus/releases/download/Files/msc.sh)
   
-- [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img) (powinno już być zainstalowane)
+- [TWRP](https://github.com/n00b69/woa-equuleus/releases/download/Files/twrp.img) (powinno już być zainstalowane)
 
 #### Uruchom do TWRP
 > Jeśli Xiaomi zastąpiło Twoje recovery z powrotem do stanu magazynowego, sflashuj je ponownie w trybie fastboot za pomocą:
 ```cmd
-fastboot flash \path\to\twrp.img
+fastboot flash recovery path\to\twrp.img
 ```
 
 #### Uruchamianie skryptu msc
@@ -37,7 +37,7 @@ objętość listy
 ```
 
 #### Wybierz wolumin systemu Windows
-> Zastąp $ rzeczywistą liczbą **WINPOLARIS**
+> Zastąp $ rzeczywistą liczbą **WIN8PRO**
 ```cmd
 wybierz głośność $
 ```
@@ -65,7 +65,7 @@ część dysku
 ```
 
 #### Wybierz głośność systemu Windows w telefonie
-> Użyj `list Volume`, aby go znaleźć, zamień „$” na rzeczywistą liczbę **WINPOLARIS**
+> Użyj `list Volume`, aby go znaleźć, zamień „$” na rzeczywistą liczbę **WIN8PRO**
 ```część dysku
 wybierz głośność $
 ```
