@@ -2,6 +2,8 @@
 
 # Windows na Xiaomi Mi 8 Pro
 
+## Ponowna instalacja Windows
+
 ### Wymagania
 - [Windows dla ARM](https://worproject.com/esd)
 
