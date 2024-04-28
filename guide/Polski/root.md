@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
+<img align="right" src="https://github.com/n00b69/woa-equuleus/blob/main/equuleus.png" width="350" alt="Windows 11 running on equuleus">
 
-# Windows na Xiaomi Mix 2s
+# Windows na Xiaomi Mi 8 Pro
 
 ## Przewodnik po rootowaniu
 
@@ -9,12 +9,12 @@
 
 - [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img)
+- [TWRP](https://github.com/n00b69/woa-equuleus/releases/download/Files/twrp.img)
 
 ### Uruchom TWRP
 > Jeśli Twoje recovery zostało przywrócone do stanu fabrycznego, wykonaj flashowanie ponownie w trybie fastboot za pomocą:
 ```cmd
-fastboot flash \path\to\twrp.img
+fastboot flash recovery path\to\twrp.img
 ```
 #### Tworzenie kopii zapasowej obrazu rozruchowego
 > Czasami flashowanie Magiska może spowodować bootloop. Aby to naprawić, musisz przywrócić kopię zapasową pliku boot.img.
