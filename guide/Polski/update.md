@@ -4,7 +4,7 @@
 
 ## Aktualizowanie sterowników
 
-### Warunki wstępne
+### Wymagania
 - [Sterowniki](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
 
 ### Boot into Windows
