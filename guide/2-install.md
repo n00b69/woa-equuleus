@@ -14,9 +14,9 @@
 - [UEFI image](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
 
 #### Boot to the UEFI
-> Replace **<path\to\equuleus-uefi.img>** with the actual path of the UEFI image
+> Replace `path\to\equuleus-uefi.img` with the actual path of the UEFI image
 ```cmd
-fastboot boot <path\to\equuleus-uefi.img>
+fastboot boot path\to\equuleus-uefi.img
 ```
 
 #### Enabling mass storage mode
@@ -89,18 +89,18 @@ exit
 ```
 
 ### Installing Windows
-> Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
+> Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim)
 
 ```cmd
-dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
 
-> If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
+> If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:path\to\install.esd`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
 
 ### Installing Drivers
 > Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
-> If it asks you to enter a letter, enter the drive letter of **WIN8PRO** (which should be X), then press enter
+> If it asks you to enter a letter, enter the drive letter of **WIN8PRO** (which should be **X**), then press enter
   
 #### Create Windows bootloader files
 ```cmd
@@ -155,14 +155,20 @@ remove letter y
 exit
 ```
 
+### Reboot to fastboot
+> Hold **volume down** + **power** to force reboot your phone into fastboot mode
+
 ### Fixing touch
-> Reboot to fastboot, then replace "path\to" with the actual path to the image
+> Replace `path\to\devcgf-equuleus.img` with the actual path to the image
 ```cmd
 fastboot flash devcfg path\to\devcgf-equuleus.img
 ```
 
 ### Reboot to Android
 > To set up dualboot
+```cmd
+fastboot reboot
+```
 
 ## [Last step: Setting up dualboot](/guide/dualboot.md)
 
