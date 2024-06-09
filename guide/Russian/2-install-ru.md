@@ -14,9 +14,9 @@
 - [Образ UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
 
 ### Загрузитесь в UEFI
-> Замените **<путь\к\equuleus-uefi.img>** актуальным путём к образу UEFI
+> Замените `путь\к\equuleus-uefi.img` актуальным путём к образу UEFI
 ```cmd
-fastboot boot <путь\к\equuleus-uefi.img>
+fastboot boot путь\к\equuleus-uefi.img
 ```
 
 #### Включите режим mass storage
@@ -88,12 +88,12 @@ exit
 ```
 
 ### Установка Windows
-> Замените `<путь\к\install.esd>` актуальным путём к install.esd (файл также может называться install.wim)
+> Замените `путь\к\install.esd` актуальным путём к install.esd (файл также может называться install.wim)
 ```cmd
-dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 ```
 
-> Если вы получите `Error 87`, проверьте индекс вышего образа используя `dism /get-imageinfo /ImageFile:<путь\к\install.esd>`, затем замените `index:6` действтельным индексом Windows 11 Pro в вашем образе
+> Если вы получите `Error 87`, проверьте индекс вышего образа используя `dism /get-imageinfo /ImageFile:путь\к\install.esd`, затем замените `index:6` действтельным индексом **Windows 11 Pro** в вашем образе
 
 ### Установка драйверов
 > Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` 
@@ -153,13 +153,19 @@ remove letter y
 exit
 ```
 
+### Перезагрузитесь в fastboot
+> Удерживайте кнопку **уменьшение громкости** + **питание**, чтобы перезагрузить телефон в режим fastboot
+
 ### Исправить touch
-> Перезагрузитесь в fastboot, затем замените **path\to** путём к образу
+> Перезагрузитесь в fastboot, затем замените `путь\к\devcgf-equuleus.img` путём к образу
 ```cmd
 fastboot flash devcfg_ab path\to\devcgf-equuleus.img
 ```
 
 ### Перезагрузка в Android
 > Чтобы настроить двойную загрузку
+```cmd
+fastboot reboot
+```
 
 ## [Последний шаг: Настройка двойной загрузки](dualboot-ru.md)
