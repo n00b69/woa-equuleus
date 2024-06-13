@@ -21,9 +21,9 @@ fastboot boot path\to\equuleus-uefi.img
 
 #### Enabling mass storage mode
 > Once booted into the UEFI, use the volume buttons to navigate the menu and the power button to confirm
-- Select UEFI Boot Menu.
-- Select USB Attached SCSI (UAS) Storage.
-- Select Boot.
+- Select **UEFI Boot Menu**.
+- Select **USB Attached SCSI (UAS) Storage**.
+- Press the **power** button twice to confirm.
 
 ### Diskpart
 > [!WARNING]
@@ -98,7 +98,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 > If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:path\to\install.esd`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
 
 ### Installing Drivers
-> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
+> Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
 
 > If it asks you to enter a letter, enter the drive letter of **WIN8PRO** (which should be **X**), then press enter
   
