@@ -160,9 +160,9 @@ exit
 > Удерживайте кнопку **уменьшение громкости** + **питание**, чтобы перезагрузить телефон в режим fastboot
 
 ### Исправить touch
-> Перезагрузитесь в fastboot, затем замените `путь\к\devcgf-equuleus.img` путём к образу
+> Перезагрузитесь в fastboot, затем замените `путь\к\devcfg-equuleus.img` путём к образу
 ```cmd
-fastboot flash devcfg_ab path\to\devcgf-equuleus.img
+fastboot flash devcfg_ab path\to\devcfg-equuleus.img
 ```
 
 ### Перезагрузка в Android
