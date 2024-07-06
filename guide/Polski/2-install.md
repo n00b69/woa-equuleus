@@ -158,7 +158,7 @@ exit
 ```
 
 ### Naprawianie dotyku
-> Uruchom ponownie telefon w trybie fastboot, a następnie zamień **path\to** rzeczywistą ścieżką do obrazu devcfg (który pobrałeś wczesniej)
+> Zastąp `path\to\devcfg-equuleus.img` rzeczywistą ścieżką obrazu
 ```cmd
 fastboot flash devcfg_ab path\to\devcfg-equuleus.img
 ```
