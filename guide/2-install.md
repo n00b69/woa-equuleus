@@ -162,9 +162,9 @@ exit
 > Hold **volume down** + **power** to force reboot your phone into fastboot mode
 
 ### Fixing touch
-> Replace `path\to\devcgf-equuleus.img` with the actual path to the image
+> Replace `path\to\devcfg-equuleus.img` with the actual path to the image
 ```cmd
-fastboot flash devcfg path\to\devcgf-equuleus.img
+fastboot flash devcfg_ab path\to\devcfg-equuleus.img
 ```
 
 ### Reboot to Android
