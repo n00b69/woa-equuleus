@@ -11,12 +11,12 @@
 
 - [Devcfg (naprawia dotyk)](https://github.com/n00b69/woa-equuleus/releases/download/Files/devcfg-polaris.img)
   
-- [obraz UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
+- [Obraz UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
 
 ### Uruchom do UEFI
-> Zastąp **<path\to\equuleus-uefi.img>** rzeczywistą ścieżką obrazu UEFI
+> Zastąp `path\to\equuleus-uefi.img` rzeczywistą ścieżką obrazu UEFI
 ```cmd
-fastboot boot <path\to\equuleus-uefi.img>
+fastboot boot path\to\equuleus-uefi.img
 ```
 
 #### Włączanie trybu pamięci masowej
