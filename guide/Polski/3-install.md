@@ -141,7 +141,7 @@ mountvol y: /d
 fastboot flash devcfg_ab ścieżka\do\devcfg-equuleus.img
 ```
 
-#### Uruchom do UEFI
+#### Uruchamianie do UEFI
 > Zastąp `ścieżka\do\equuleus-uefi.img` rzeczywistą ścieżką obrazu UEFI
 ```cmd
 fastboot boot ścieżka\do\equuleus-uefi.img
