@@ -14,9 +14,9 @@
 - [Obraz UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
 
 ### Uruchom do UEFI
-> Zastąp `path\to\equuleus-uefi.img` rzeczywistą ścieżką obrazu UEFI
+> Zastąp `ścieżka\do\equuleus-uefi.img` rzeczywistą ścieżką obrazu UEFI
 ```cmd
-fastboot boot path\to\equuleus-uefi.img
+fastboot boot ścieżka\do\equuleus-uefi.img
 ```
 
 #### Włączanie trybu pamięci masowej
@@ -91,16 +91,18 @@ exit
 > [!WARNING]
 > NIE UŻYWAJ 24H2!!!
 
-> Zamień `<path\to\install.esd>` na rzeczywistą ścieżkę do pliku install.esd (może on również nosić nazwę install.wim)
-
+> Zamień `ścieżka\do\install.esd` na rzeczywistą ścieżkę do pliku install.esd (może on również nosić nazwę install.wim lub 22631.2861.XXXXXXX.esd)
 ```cmd
-dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:ścieżka\do\install.esd /index:6 /ApplyDir:X:\
 ```
 
-> Jeśli pojawi się komunikat `Błąd 87`, sprawdź indeks obrazu za pomocą polecenia `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, a następnie zastąp `index:6` rzeczywistym numerem indeksu systemu Windows 11 Pro na Twoim obrazie
+> Jeśli pojawi się komunikat `Błąd 87`, sprawdź indeks obrazu za pomocą polecenia `dism /get-imageinfo /ImageFile:ścieżka\do\install.esd`, a następnie zastąp `index:6` rzeczywistym numerem indeksu systemu **Windows 11 Pro** w Twoim obrazie
 
-### Instalowanie Sterowników
-> Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd`
+### Kopiowanie obrazu rozruchu do Windowsa
+- Zaznacz i upuść **root.img** z poprzedniego kroku do **WIN8PRO** w eksploratorze plików, a następnie zmień mu nazwę na **boot.img**.
+
+### Instalowanie sterowników
+- Wypakuj archiwum ze sterownikami, a następnie otwórz plik `OfflineUpdater.cmd` (jeśli pojawi się błąd, otwórz `OfflineUpdaterFix.cmd`)
  
 > Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WIN8PRO** (która powinna być X), a następnie naciśnij enter.
 
@@ -158,22 +160,21 @@ exit
 ```
 
 ### Naprawianie dotyku
-> Zastąp `path\to\devcfg-equuleus.img` rzeczywistą ścieżką obrazu
+> Zastąp `ścieżka\do\devcfg-equuleus.img` rzeczywistą ścieżką obrazu
 ```cmd
-fastboot flash devcfg_ab path\to\devcfg-equuleus.img
+fastboot flash devcfg_ab ścieżka\do\devcfg-equuleus.img
 ```
 
 #### Uruchom do UEFI
-> Zastąp `path\to\equuleus-uefi.img` rzeczywistą ścieżką obrazu UEFI
+> Zastąp `ścieżka\do\equuleus-uefi.img` rzeczywistą ścieżką obrazu UEFI
 ```cmd
-fastboot boot path\to\equuleus-uefi.img
+fastboot boot ścieżka\do\equuleus-uefi.img
 ```
 
-### Uruchom ponownie do Androida
-Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
+### Uruchamianie ponownie do Androida
+Telefon powinien uruchomić się ponownie sam po +- 10 minutach czekania, po których uruchomi się Android, aby wykonać ostatni krok.
 
-
-## [Ostatni Krok: Ustawianie dualboot](dualboot.md)
+## [Ostatni krok: Konfiguracja dualboot](4-dualboot.md)
 
 
 
