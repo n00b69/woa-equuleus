@@ -117,12 +117,12 @@ quit
 
 ### Formatting Windows drive
 ```cmd
-adb shell mkfs.ntfs -f /dev/block/by-name/win -n WINDIPPER
+adb shell mkfs.ntfs -f /dev/block/by-name/win -n WIN8PRO
 ``` 
 
 ### Formatting ESP drive
 ```cmd
-adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPDIPPER
+adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESP8PRO
 ```
 
 ### Formatting data
