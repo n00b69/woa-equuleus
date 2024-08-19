@@ -29,7 +29,7 @@ diskpart
 ```
 
 #### Wybieranie partycji Windows
-> Wpisz `list Volume`, aby ją znaleźć, zamień `$` na rzeczywistą liczbę **WINDIPPER**
+> Wpisz `list Volume`, aby ją znaleźć, zamień `$` na rzeczywistą liczbę **WIN8PRO**
 ```diskpart
 select volume $
 ```
@@ -57,7 +57,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 > Jeśli pojawi się komunikat `Błąd 87`, sprawdź indeks obrazu za pomocą polecenia `dism /get-imageinfo /ImageFile:path\to\install.esd`, a następnie zastąp `index:6` rzeczywistym numerem indeksu systemu Windows 11 Pro na Twoim obrazie
 
 ### Instalowanie sterowników
-> Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd` (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
+- Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd` (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
  
 > Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WIN8PRO** (która powinna być **X**), a następnie naciśnij enter.
 
