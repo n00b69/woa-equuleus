@@ -29,7 +29,7 @@ diskpart
 ```
 
 #### Выбрать раздел Windows 
-> Используйте `list volume` чтобы найти его, замените `$` номером раздела **WINDIPPER**
+> Используйте `list volume` чтобы найти его, замените `$` номером раздела **WIN8PRO**
 ```cmd
 select volume $
 ``` 
@@ -56,7 +56,7 @@ dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 > Если вы получите `Error 87`, проверьте индекс вышего образа используя `dism /get-imageinfo /ImageFile:<путь\к\install.esd>`, затем замените `index:6` действтельным индексом Windows 11 Pro в вашем образе
 
 ### Установка драйверов
-> Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
+- Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
 
 > Введите букву диска **WIN8PRO** (должна быть **X**) затем нажмите Enter
 
