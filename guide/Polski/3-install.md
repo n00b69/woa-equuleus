@@ -32,33 +32,10 @@ fastboot boot ścieżka\do\equuleus-uefi.img
 diskpart
 ```
 
-#### Znajdowanie telefonu
-> Spowoduje to wyświetlenie listy wszystkich podłączonych dysków
-```cmd
-lis dis
-```
-
-#### Wybieranie telefonu
-> Zastąp $ rzeczywistym numerem partycji telefonu (powinien być ostatnim)
-```cmd
-sel dis $
-```
-
-#### Lista partycji Twojego telefonu
-> Spowoduje to wyświetlenie listy partycji urządzenia
-```cmd
-lis par
-```
-
-#### Wybór partycji Windows
-> Zastąp $ numerem partycji systemu Windows (powinno być 23)
-```cmd
-sel par $
-```
-
-#### Formatowanie dysku z systemem Windows
-```cmd
-format quick fs=ntfs label="WIN8PRO"
+#### Wybieranie partycji Windows
+> Wpisz `list Volume`, aby ją znaleźć, zamień `$` na rzeczywistą liczbę **WIN8PRO**
+```diskpart
+select volume $
 ```
 
 #### Dodanie litery do systemu Windows
@@ -67,17 +44,12 @@ assign letter x
 ```
 
 #### Wybieranie partycji ESP
-> Zamień $ na numer partycji ESP (powinno być 22)
-```cmd
-sel par $
+> Użyj `list Volume`, aby go znaleźć, zamień `$` na rzeczywistą liczbę **ESP8PRO**
+```diskpart
+select volume $
 ```
 
-#### Formatowanie ESP
-```cmd
-format quick fs=fat32 label="ESP8PRO"
-```
-
-#### Dodanie litery do ESP
+#### Dodanie literę do ESP
 ```cmd
 assign letter y
 ```
