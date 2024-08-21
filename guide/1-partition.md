@@ -117,7 +117,7 @@ quit
 
 ### Formatting Windows drive
 ```cmd
-adb shell mkfs.ntfs -f /dev/block/by-name/win -n WIN8PRO
+adb shell mkfs.ntfs -f /dev/block/by-name/win -L WIN8PRO
 ``` 
 
 ### Formatting ESP drive
