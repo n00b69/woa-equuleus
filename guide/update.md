@@ -2,7 +2,7 @@
 
 # Running Windows on the Xiaomi Mi 8 Pro
 
-## Updating drivers (old method)
+## Updating drivers
 
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
