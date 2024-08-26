@@ -5,13 +5,13 @@
 ## Instalacja Windowsa
 
 ### Wymagania
+- [Obraz UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
+
 - [Windows na ARM](https://worproject.com/esd)
   
 - [Sterowniki](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
 
 - [Devcfg (naprawia dotyk)](https://github.com/n00b69/woa-equuleus/releases/download/Files/devcfg-polaris.img)
-  
-- [Obraz UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
 
 ### Uruchom do UEFI
 > Zastąp `ścieżka\do\equuleus-uefi.img` rzeczywistą ścieżką obrazu UEFI
