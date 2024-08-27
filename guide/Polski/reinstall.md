@@ -7,14 +7,14 @@
 ### Wymagania
 - [Obraz UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
 
-- [Windows na ARM](https://worproject.com/esd)
+- [Windows na ARM](https://arkt-7.github.io/woawin/)
 
 - [Sterowniki](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
 
 ### Uruchom do UEFI
-> Zastąp `path\to\equuleus-uefi.img` rzeczywistą ścieżką obrazu UEFI
+> Zastąp `ścieżka\do\equuleus-uefi.img` rzeczywistą ścieżką obrazu UEFI
 ```cmd
-fastboot boot path\to\equuleus-uefi.img
+fastboot boot ścieżka\do\equuleus-uefi.img
 ```
 
 #### Włączanie trybu pamięci masowej
