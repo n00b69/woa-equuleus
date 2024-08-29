@@ -5,18 +5,20 @@
 ## Instalacja Windowsa
 
 ### Wymagania
-- [Obraz UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
+- [Obraz pamięci masowej](https://github.com/n00b69/woa-equuleus/releases/download/Files/msc.img)
 
 - [Windows na ARM](https://arkt-7.github.io/woawin/)
   
 - [Sterowniki](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
 
-- [Devcfg (naprawia dotyk)](https://github.com/n00b69/woa-equuleus/releases/download/Files/devcfg-polaris.img)
+- [Devcfg (naprawia dotyk)](https://github.com/n00b69/woa-equuleus/releases/download/Files/devcfg-equuleus.img)
 
-### Uruchom do UEFI
-> Zastąp `ścieżka\do\equuleus-uefi.img` rzeczywistą ścieżką obrazu UEFI
+- [Obraz UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
+
+### Uruchom do pamięci masowej
+> Zastąp `ścieżka\do\msc.img` rzeczywistą ścieżką obrazu pamięci masowej
 ```cmd
-fastboot boot ścieżka\do\equuleus-uefi.img
+fastboot boot ścieżka\do\msc.img
 ```
 
 #### Włączanie trybu pamięci masowej
