@@ -5,7 +5,7 @@
 ## Установка Windows
 
 ### Требования
-- [Образ UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
+- [Образ mass storage](https://github.com/n00b69/woa-equuleus/releases/download/Files/msc.img)
 
 - [Образ ARM Windows](https://arkt-7.github.io/woawin/)
   
@@ -13,10 +13,12 @@
 
 - [Devcfg исправления touch](https://github.com/n00b69/woa-equuleus/releases/download/Files/devcfg-polaris.img)
 
-### Загрузитесь в UEFI
-> Замените `путь\к\equuleus-uefi.img` актуальным путём к образу UEFI
+- [Образ UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
+
+### Загрузитесь в msc
+> Замените `путь\к\msc.img` актуальным путём к образу msc
 ```cmd
-fastboot boot путь\к\equuleus-uefi.img
+fastboot boot путь\к\msc.img
 ```
 
 #### Включите режим mass storage
