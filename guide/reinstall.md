@@ -5,16 +5,18 @@
 ## Reinstalling Windows
 
 ### Prerequisites
-- [UEFI image](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
+- [Mass storage image](https://github.com/n00b69/woa-equuleus/releases/download/Files/msc.img)
 
 - [Windows on ARM image](https://arkt-7.github.io/woawin/)
 
 - [Drivers](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
 
-### Boot into the UEFI
-> Replace `path\to\equuleus-uefi.img` with the actual path of the UEFI image
+- [UEFI image](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
+
+### Boot into the mass storage image
+> Replace `path\to\msc.img` with the actual path of the mass storage image
 ```cmd
-fastboot boot path\to\equuleus-uefi.img
+fastboot boot path\to\msc.img
 ```
 
 #### Enabling mass storage mode
