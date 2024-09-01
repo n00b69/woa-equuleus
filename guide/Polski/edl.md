@@ -2,7 +2,7 @@
 
 # Windows na Xiaomi Mi 8 Pro
 
-## Przywracanie urządzenia za pomocą trybu EDL.
+## Przywracanie urządzenia za pomocą trybu EDL
 
 ### Wymagania
 - [Oryginalny ROM fastboot](https://xmfirmwareupdater.com/miui/equuleus/)
