@@ -47,7 +47,7 @@ exit
 ```
 
 #### Formatting Windows
-> Go to Windows Explorer > This PC and select **WIN8PRO**. Right click and format as NTFS.
+> Go to Windows Explorer > This PC and select **WINEQUULEUS**. Right click and format as NTFS.
 
 ### Installing Windows
 > Zamień `ścieżka\do\install.esd` na rzeczywistą ścieżkę do pliku install.esd (może on również nosić nazwę install.wim lub 22631.2861.XXXXXXX.esd)
@@ -60,7 +60,7 @@ dism /apply-image /ImageFile:ścieżka\do\install.esd /index:6 /ApplyDir:X:\
 ### Instalowanie sterowników
 - Wypakuj archiwum ze sterownikami, a następnie otwórz plik `OfflineUpdater.cmd` (jeśli pojawi się błąd, otwórz `OfflineUpdaterFix.cmd`)
  
-> Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WIN8PRO** (którą powinna być **X**), a następnie naciśnij enter.
+> Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINEQUULEUS** (którą powinna być **X**), a następnie naciśnij enter.
 
 ### Uruchom do Androida
 Uruchom ponownie telefon. Jeśli zamiast systemu Windows wylądujesz w systemie Android, ponownie wykonaj flashowanie UEFI za pomocą WOA Helper.
