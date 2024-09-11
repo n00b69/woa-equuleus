@@ -7,14 +7,16 @@
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
+- [Mass storage image](https://github.com/n00b69/woa-equuleus/releases/download/Files/msc.img)
+
 - [UEFI image](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
 
 - [Drivers](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
   
-### Boot into the UEFI
-> Replace `path\to\equuleus-uefi.img` with the actual path of the UEFI image
+### Boot into the mass storage image
+> Replace `path\to\msc.img` with the actual path of the image
 ```cmd
-fastboot boot path\to\equuleus-uefi.img
+fastboot boot path\to\msc.img
 ```
 
 #### Enabling mass storage mode
