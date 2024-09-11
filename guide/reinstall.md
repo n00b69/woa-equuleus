@@ -31,7 +31,7 @@ diskpart
 ```
 
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, replace `$` with the actual number of **WIN8PRO**
+> Use `list volume` to find it, replace `$` with the actual number of **WINEQUULEUS**
 ```diskpart
 select volume $
 ``` 
@@ -47,7 +47,7 @@ exit
 ```
 
 #### Formatting Windows
-> Go to Windows Explorer > This PC and select **WIN8PRO**. Right click and format as NTFS.
+> Go to Windows Explorer > This PC and select **WINEQUULEUS**. Right click and format as NTFS.
 
 ### Installing Windows
 > Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim)
@@ -61,7 +61,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ### Installing Drivers
 - Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
 
-> If it asks you to enter a letter, enter the drive letter of **WIN8PRO** (which should be **X**), then press enter
+> If it asks you to enter a letter, enter the drive letter of **WINEQUULEUS** (which should be **X**), then press enter
 
 ### Boot into Windows
 Reboot your phone. If you end up in Android instead of Windows, flash the UEFI again using WOA Helper.
