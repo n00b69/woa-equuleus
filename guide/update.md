@@ -34,7 +34,7 @@ diskpart
 ```
 
 #### Select Windows volume
-> Use `list volume` to find it, replace `$` with the actual number of **WIN8PRO**
+> Use `list volume` to find it, replace `$` with the actual number of **WINEQUULEUS**
 ```cmd
 select volume $
 ```
@@ -55,7 +55,7 @@ exit
 
 - Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
 
-> If it asks you to enter a letter, enter the drive letter of **WIN8PRO** (which should be **X**), then press enter
+> If it asks you to enter a letter, enter the drive letter of **WINEQUULEUS** (which should be **X**), then press enter
 
 #### Reboot your device
 > Make sure to also change the UEFI image in Android, otherwise you may face a "blue screen of death" (BSoD) when booting Windows later.
