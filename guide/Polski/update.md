@@ -7,14 +7,16 @@
 ### Wymagania
 - [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
+- [Obraz pamięci masowej](https://github.com/n00b69/woa-equuleus/releases/download/Files/msc.img)
+
 - [Obraz UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
   
 - [Sterowniki](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
 
-### Uruchom do UEFI
-> Zastąp `ścieżka\do\equuleus-uefi.img` rzeczywistą ścieżką obrazu UEFI
+### Uruchom do pamięci masowej
+> Zastąp `ścieżka\do\msc.img` rzeczywistą ścieżką obrazu pamięci masowej
 ```cmd
-fastboot boot ścieżka\do\equuleus-uefi.img
+fastboot boot ścieżka\do\msc.img
 ```
 
 #### Włączanie trybu pamięci masowej
