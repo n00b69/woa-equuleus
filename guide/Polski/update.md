@@ -29,7 +29,7 @@ diskpart
 ```
 
 #### Wybór partycji Windows
-> Użyj `list Volume`, aby go znaleźć, zamień `$` na rzeczywistą liczbę **WIN8PRO**
+> Użyj `list Volume`, aby go znaleźć, zamień `$` na rzeczywistą liczbę **WINEQUULEUS**
 ```diskpart
 select volume $
 ```
@@ -50,7 +50,7 @@ exit
 
 - Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd` (jeśli pojawi się błąd, otwórz `OfflineUpdaterFix.cmd`)
  
-> Jeśli poprosi cię o podanie litery, wpisz literę dysku **WIN8PRO** (która powinna być **X**), a następnie naciśnij enter.
+> Jeśli poprosi cię o podanie litery, wpisz literę dysku **WINEQUULEUS** (która powinna być **X**), a następnie naciśnij enter.
 
 ### Uruchom ponownie urządzenie
 > Pamiętaj, aby zmienić także obraz UEFI w systemie Android, w przeciwnym razie podczas późniejszego uruchamiania systemu Windows może pojawić się „niebieski ekran śmierci” (BSoD).
