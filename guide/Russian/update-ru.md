@@ -5,16 +5,18 @@
 ## Обновление драйверов 
 
 ### Требования
+- [Образ mass storage](https://github.com/n00b69/woa-equuleus/releases/download/Files/msc.img)
+
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 - [Образ UEFI](https://github.com/n00b69/woa-equuleus/releases/tag/UEFI)
 
 - [Драйвера](https://github.com/n00b69/woa-equuleus/releases/tag/Drivers)
 
-### Загрузитесь в UEFI
-> Замените `путь\к\equuleus-uefi.img` актуальным путём к образу UEFI
+### Загрузитесь в msc
+> Замените `путь\к\msc.img` актуальным путём к образу msc
 ```cmd
-fastboot boot путь\к\equuleus-uefi.img
+fastboot boot путь\к\msc.img
 ```
 
 #### Включите режим mass storage
