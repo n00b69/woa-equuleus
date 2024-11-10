@@ -125,11 +125,11 @@ quit
 ### Formatting Windows and ESP drives
 > Reboot into the modded TWRP, then run the below two commands
 ```cmd
-adb shell mkfs.ntfs -f /dev/block/by-name/win -L WIN8PRO
+adb shell mkfs.ntfs -f /dev/block/by-name/win -L WINEQUULEUS
 ``` 
 
 ```cmd
-adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESP8PRO
+adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPEQUULEUS
 ```
 
 ## [Next step: Rooting your phone](/guide/2-root.md)
