@@ -118,6 +118,9 @@ fastboot flash devcfg_ab path\to\devcfg-equuleus.img
 
 #### Загрузитесь в UEFI
 > Замените `путь\к\equuleus-uefi.img` актуальным путём к образу UEFI
+
+> [!Important]
+> Remove your USB cable right after leaving the fastboot screen, or Windows may crash in the initial setup
 ```cmd
 fastboot boot путь\к\equuleus-uefi.img
 ```
