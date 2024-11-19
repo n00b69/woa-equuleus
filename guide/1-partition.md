@@ -32,6 +32,9 @@
 cd path\to\platform-tools
 ```
 
+> [!Note]
+> If your device is not detected in fastboot or recovery mode, you'll have to install USB drivers [using this guide](troubleshooting.md#device-is-not-recognized-in-fastboot-or-recovery)
+
 #### Flash TWRP recovery
 > Open a CMD window inside the platform-tools folder, then (while your phone is in fastboot mode) run
 ```cmd
