@@ -120,7 +120,7 @@ fastboot flash devcfg_ab ścieżka\do\devcfg-equuleus.img
 > Zastąp `ścieżka\do\equuleus-uefi.img` rzeczywistą ścieżką obrazu UEFI
 
 > [!Important]
-> Remove your USB cable right after leaving the fastboot screen, or Windows may crash in the initial setup
+> Remove your USB cable right after leaving the fastboot screen, or Windows may crash in the initial setup, which will then require a reinstall
 ```cmd
 fastboot boot ścieżka\do\equuleus-uefi.img
 ```
